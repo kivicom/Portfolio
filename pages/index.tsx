@@ -8,17 +8,17 @@ import {
   Skills,
   Testimonials,
 } from "../components";
-import { PostType } from "../types/PostType";
-import getPosts from "../utils/getPosts";
+//import { PostType } from "../types/PostType";
+//import getPosts from "../utils/getPosts";
 import { GetStaticProps } from "next";
 import Head from "next/head";
 import React, { FC } from "react";
 
-interface Props {
+/*interface Props {
   Posts: [PostType];
-}
+}*/
 
-const Home: FC<Props> = ({ Posts }) => {
+const Home: FC = () => {
   return (
     <div>
       <Head>
@@ -35,7 +35,7 @@ const Home: FC<Props> = ({ Posts }) => {
         <Testimonials />
         <Projects />
         <Skills />
-        <Blog Posts={Posts} />
+        {/*<Blog Posts={Posts} />*/}
         <Contact />
       </main>
     </div>
@@ -44,7 +44,7 @@ const Home: FC<Props> = ({ Posts }) => {
 
 export default Home;
 
-export const getStaticProps: GetStaticProps = async () => {
+/*export const getStaticProps: GetStaticProps = async () => {
   const Posts = await getPosts("avneesh0612");
 
   return {
@@ -53,4 +53,4 @@ export const getStaticProps: GetStaticProps = async () => {
     },
     revalidate: 600,
   };
-};
+};*/

@@ -1,6 +1,6 @@
 {
-  "name": "Avneesh Agarwal",
-  "image": "/me.png",
+  "name": "Igor Vitalievich",
+  "image": "/avatar.jpg",
   "profession": "FullStack web developer",
   "intro": "Focused on building products that will make people's lives better. I also create content in form of blogs and threads. I love to learn new things and I am always open to learn new technologies.",
   "about": "I am a full-stack web developer who loves to design and develop beautiful websites. I have been coding for over a year and enjoying every part of my journey. I love documenting my journey by writing blog posts and teaching others through my writing.",
@@ -30,40 +30,45 @@
       "src": "/logos/tailwind.svg",
       "name": "Tailwind",
       "link": "https://tailwindcss.com/"
+    },
+    {
+      "src": "/logos/zoho.svg",
+      "name": "Zoho CRM",
+      "link": "https://www.zoho.com/"
     }
   ],
   "projects": [
     {
-      "name": "Irish Players Club",
-      "image": "https://res.cloudinary.com/didkcszrq/image/upload/v1646014704/Frame_1_cglafw.png",
-      "about": "A NFT collection of 5,555 unique leprechaun NFTs created by former Domers in an effort to support currently rostered Notre Dame football players.",
-      "tech": ["Next.js", "Solidity", "Node.js", "Chakra UI", "Firebase"],
+      "name": "Next CRM",
+      "image": "/projects/nextcrm.jpg",
+      "about": "",
+      "tech": ["Next.js", "TypeScript", "Node.js", "Mantine UI", "Laravel"],
       "links": {
-        "Live": "https://www.irishplayersclub.com/"
+        "Live": "#"
       },
-      "role": "Fullstack web3 developer"
+      "role": "Fullstack developer"
     },
     {
-      "name": "React and Next.js Snippets",
-      "image": "/projects/react-next.js-snips.png",
-      "about": "Packed with a lot of React and Next.js snippets, along with typescript! It is very easy to use, you can simply install it and type in the prefix for the snippets.",
-      "tech": ["VScode", "React", "Next.js"],
+      "name": "ZOHO CRM",
+      "image": "/projects/zoho-crm-logo.webp",
+      "about": "Synchronization of products, categories, orders, and contacts. Synchronization between two CRM systems, ZOHO CRM and Clarizen CRM.",
+      "tech": ["ZOHO CRM", "Clarizen CRM"],
       "links": {
-        "GitHub": "https://github.com/avneesh0612/react-nextjs-snippets",
-        "Live": "https://www.producthunt.com/posts/react-and-next-js-snippets"
+        "GitHub": "#",
+        "Live": "#"
       },
-      "role": "Lead developer"
+      "role": "Contributer Developer"
     },
     {
-      "name": "Faucetli",
-      "image": "/projects/faucetli.png",
-      "about": "🦄 Faucetli is a minimal command-line tool to receive testnet tokens right away from your terminal.",
-      "tech": ["Node.js", "Web3.js", "Typescript"],
+      "name": "Shopify For ZOHO CRM",
+      "image": "/projects/zohovsshopify.jpg",
+      "about": "Synchronization of products, categories, orders and contacts between Shopify store and ZOHO CRM. For this solution was created an extension for Marketplace with synchronization settings. Frontend is made on Vue.js. Backend on Laravel.",
+      "tech": ["ZOHO CRM", "Shopify", "Vue.js", "Laravel"],
       "links": {
-        "GitHub": "https://github.com/Kira272921/faucetli",
-        "Live": "https://www.producthunt.com/posts/faucetli"
+        "GitHub": "#",
+        "Live": "#"
       },
-      "role": "Co-Founder"
+      "role": "Contributer Developer"
     }
   ],
   "testimonials": [
@@ -86,37 +91,12 @@
     {
       "name": "GitHub",
       "icon": "github.svg",
-      "link": "https://github.com/avneesh0612"
-    },
-    {
-      "name": "Twitter",
-      "icon": "twitter.svg",
-      "link": "https://twitter.com/avneesh0612"
-    },
-    {
-      "name": "Hashnode",
-      "icon": "hashnode.svg",
-      "link": "https://blog.avneesh.tech"
-    },
-    {
-      "name": "Showwcase",
-      "icon": "showwcase.svg",
-      "link": "https://www.showwcase.com/avneesh"
-    },
-    {
-      "name": "Instagram",
-      "icon": "instagram.svg",
-      "link": "https://instagram.com/avneesh.codes"
+      "link": "https://github.com/kivicom"
     },
     {
       "name": "Mail me",
       "icon": "mail.svg",
-      "link": "mailto:avneeshagarwal0612@gmail.com"
-    },
-    {
-      "name": "LinkedIn",
-      "icon": "linkedin.svg",
-      "link": "https://www.linkedin.com/in/avneesh0612"
+      "link": "mailto:aigor9534@gmail.com"
     }
   ]
 }

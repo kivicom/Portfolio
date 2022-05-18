@@ -1,6 +1,6 @@
 import { useDimensions } from "../hooks/useDimensions";
 import Logo from "./Logo";
-import { MenuToggle, Navigation } from "./header";
+import { MenuToggle, Navigation } from "./header/index";
 import { motion, useCycle } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
@@ -61,10 +61,6 @@ const Header = () => {
     {
       name: "Skills",
       href: "skills",
-    },
-    {
-      name: "Blog",
-      href: "blog",
     },
     {
       name: "Contact",

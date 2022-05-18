@@ -42,10 +42,6 @@ const headerItems = [
     href: "skills",
   },
   {
-    name: "Blog",
-    href: "blog",
-  },
-  {
     name: "Contact",
     href: "contact",
   },
