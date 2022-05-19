@@ -14,7 +14,7 @@ const Document = () => {
         <meta property="og:image" content={`${data.website}/og-image.png`} />
         <meta
           name="keywords"
-          content="Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator"
+          content="PHP, Laravel, Node.JS, Next.js, React, Redux, Vue"
         />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/icon.png"></link>
