@@ -10,6 +10,9 @@
     @apply w-screen overflow-x-hidden bg-bgblue font-sora text-text;
   }
 }
+.w-screen {
+  max-width: 100%;
+}
 
 body::-webkit-scrollbar,
 .hideScrollBar::-webkit-scrollbar {

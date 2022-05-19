@@ -44,7 +44,7 @@ const Projects = () => {
                 <span className="text-neon">Role:</span> {project.role}
               </p>
 
-              <div className="flex mt-4 space-x-4">
+              {/*<div className="flex mt-4 space-x-4">
                 {project.links.GitHub && (
                   <a
                     target="_blank"
@@ -66,7 +66,7 @@ const Projects = () => {
                   <VisitIcon />
                   <span className="ml-2">Visit</span>
                 </a>
-              </div>
+              </div>*/}
             </div>
           </article>
         ))}
