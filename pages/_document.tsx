@@ -3,7 +3,7 @@ import { Html, Main, NextScript, Head } from "next/document";
 
 const Document = () => {
   return (
-    <Html lang="en">
+    <Html lang="ru">
       <Head>
         <link
           rel="alternate"
@@ -23,6 +23,7 @@ const Document = () => {
       <body>
         <Main />
         <NextScript />
+
       </body>
     </Html>
   );
